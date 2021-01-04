@@ -8,13 +8,25 @@ body {
   font-size: 16px;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover {
+  color: rgb(104, 104, 104);
+}
+
 nav {
   width: 100%;
 }
 
 .container {
   margin: 110px 50px 200px 50px;
-  width: 50%;
+  width: 55%;
 }
   
 .container h1 {
@@ -32,6 +44,13 @@ nav {
 @media only screen and (max-width: 400px) {
   .container {
     width: 75%;
+    padding-right: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 35px;
   }
 }
 
